@@ -24,7 +24,7 @@ import { NegToPosPipe } from './pipes/neg-to-pos.pipe';
   imports: [
     BrowserModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyBwoBBimFchJpbQ9yCzhDWsRWKK3v1GV80'
+      apiKey: 'API_KEY_GOOGLE'
    }),
     FormsModule,
     HttpClientModule,

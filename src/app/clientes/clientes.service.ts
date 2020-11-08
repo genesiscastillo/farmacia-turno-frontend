@@ -8,13 +8,10 @@ import { environment } from '../../environments/environment';
 })
 export class ClientesService {
 
-
-  //private url = 'https://midastest.minsal.cl/farmacias/maps/index.php/utilidades/maps_obtener_comunas_por_regiones?reg_id=7';
   private urlComunaRegion =  environment.apiBackend+'/api/farmacia/getListaComunasPorRegion';
   private urlFarmaciaTurno = environment.apiBackend+'/api/farmacia/postListaFarmaciaEnTurno';
 
   constructor(private http:HttpClient) {  
-      this.getLocalesPorComuna('BUIN','PLAZA');
   }
 
   getComunasRegionMetropolitana(){

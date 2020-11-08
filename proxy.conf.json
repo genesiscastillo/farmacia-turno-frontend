@@ -1,0 +1,7 @@
+{
+    "/farmacias/*": {
+        "target": "https://midastest.minsal.cl",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
